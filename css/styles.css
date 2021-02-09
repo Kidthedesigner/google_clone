@@ -1,11 +1,20 @@
-/******** Luke, Yo soy el CSS *********/
+/******** Luke, Im the CSS *********/
 
+/***** Global Rules ***/
 body {
     margin: 0;
     padding: 0%;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/****** Header Section ****/
 
 header {
     width: 100%;
@@ -15,4 +24,32 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
+}
+
+header nav .nav_right_section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav_right_section a {
+    margin-right: 10px;
+    color: #000;
+}
+
+nav .nav_right_section .menu_icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav_right_section img {
+    border-radius: 50%;
+    margin-left: 10px;
 }
